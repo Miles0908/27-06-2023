@@ -1,0 +1,18 @@
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 6px;
+}
+
+.Contacts input{
+    width: 200px;
+    height: 26px;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+}
+
+.Contacts input[type="submit"]{
+    width: 206px;
+    cursor: pointer;
+    
+}

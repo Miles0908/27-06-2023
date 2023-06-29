@@ -9,7 +9,7 @@ const ProductSection = ({ productSection, setProductSection }) => {
     GET("?s=" + productSection).then((data) => setProductData(data.drinks[0]));
   }, []);
 
-  console.log(productData);
+
   const onHandleClick = () => setProductSection("");
 
   return (

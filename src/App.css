@@ -10,11 +10,19 @@
   padding: 10px;
   justify-content: center;
   list-style: none;
-
+  text-decoration: underline;
   border-radius: 12px;
   cursor: pointer;
 }
 
 .SearchCocktail__P {
   margin: 0 20px;
+}
+
+.App__contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 200px);
+  
 }

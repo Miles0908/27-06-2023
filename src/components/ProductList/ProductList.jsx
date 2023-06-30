@@ -28,6 +28,7 @@ const ProductList = ({ name, setProductSection }) => {
           setErrorMessage("Cocktail non trovato.");
         }
       });
+    /* setProductSection(inputCocktail) ALLA FINE PER RISOLVERE l'ESERCIZIO DEL 29-06-2023 c'era bisogno di mettere questa riga di codice */
   };
 
   useEffect(() => {
@@ -39,6 +40,7 @@ const ProductList = ({ name, setProductSection }) => {
   return (
     <div className="ProductList">
       <h2>{name}</h2>
+
       <form onSubmit={handleFormSubmit}>
         <input
           type="text"
@@ -46,7 +48,6 @@ const ProductList = ({ name, setProductSection }) => {
           onChange={handleInputChange}
           placeholder="Cerca cocktail..."
         />
-        <button type="submit">Cerca</button>
       </form>
       {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
       <div className="ProductList__list">

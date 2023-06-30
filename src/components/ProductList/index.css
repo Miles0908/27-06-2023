@@ -6,8 +6,12 @@
     display: flex;
     gap: 12px;
     overflow-x: scroll;
+    
+    
   }
   .ProductList input{
+    
     border-radius: 12px;
     margin: 20px;
+
   }

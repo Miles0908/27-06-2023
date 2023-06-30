@@ -1,0 +1,18 @@
+.Filters {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 0 8px;
+}
+.Filters h3 {
+  border: 1px solid rosybrown;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.Filters label {
+  border: 1px solid rosybrown;
+  padding: 12px;
+  border-radius: 12px;
+}
